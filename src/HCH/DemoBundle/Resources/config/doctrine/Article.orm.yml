@@ -1,0 +1,32 @@
+HCH\DemoBundle\Entity\Article:
+    type: entity
+    table: null
+    repositoryClass: HCH\DemoBundle\Repository\ArticleRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: 255
+        lead:
+            type: string
+            length: 255
+            nullable: true
+        body:
+            type: string
+            length: 255
+            nullable: true
+        createdAt:
+            type: datetime
+            column: created_at
+        slug:
+            type: string
+            length: 255
+        createdBy:
+            type: string
+            length: 255 
+    lifecycleCallbacks: {  }

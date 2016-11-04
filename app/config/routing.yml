@@ -1,0 +1,11 @@
+hch_demo:
+    resource: "@HCHDemoBundle/Resources/config/routing.yml"
+    prefix:   /
+ 
+Article:
+    type:   rest
+    resource:  HCH\DemoBundle\ApiController\ArticleController
+    
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc

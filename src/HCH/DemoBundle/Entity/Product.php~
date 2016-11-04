@@ -1,0 +1,11 @@
+<?php
+
+namespace HCH\DemoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+/**
+ * Product
+ */
+class Product {  
+   
+}
